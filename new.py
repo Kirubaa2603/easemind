@@ -113,4 +113,4 @@ st.subheader("⏳ Study Timer")
 study_time = st.number_input("Set your study duration (minutes):", min_value=10, max_value=180, step=5)
 break_time = st.selectbox("Break duration:", [5, 10, 15])
 if st.button("Start Timer"):
-    st.write(f"Study for {study_time} minutes, then take a {break_time}-minute break.")  what does this code would give 
+    st.write(f"Study for {study_time} minutes, then take a {break_time}-minute break.")  
